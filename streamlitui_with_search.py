@@ -101,6 +101,10 @@ st.markdown(
     unsafe_allow_html=True
 )
 
+
+if st.button("Get Opportunity 🚀"):
+    st.switch_page("pages/opportunity.py")
+
 reddit_posts ={}
 
 # Function to analyze sentiment and assign colors
